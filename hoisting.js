@@ -17,10 +17,13 @@ var crazy = function() {
 crazy()
 
 var sayMyName = function() {
-  // fix the code in here:
   var name;
   name = "Cricky";
 
   function sayMy() {
-    name = "Kristin"; // took out var before name here
+    name = "Kristin";
     console.log(name);
+  }
+  sayMy();
+}
+sayMyName()()
