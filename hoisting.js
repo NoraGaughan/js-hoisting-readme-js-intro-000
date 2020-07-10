@@ -9,12 +9,12 @@ function callMe() {
 
 
 var crazy = function() {
-  thisIsCrazy();
-
-  var thisIsCrazy = function (){
+  var thisIsCrazy = function() {
     console.log("hey!!!")
   }
+  thisIsCrazy();
 }
+crazy()
 
 function sayMyName() {
   // fix the code in here:
